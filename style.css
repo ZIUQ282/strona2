@@ -1,4 +1,4 @@
-.wixaon {
+.wixaon {{
   -webkit-animation:rainbow .1s infinite;
   -ms-animation:rainbow .5s infinite;
   -o-animation:rainbow .5s infinite;
@@ -55,62 +55,62 @@
   80% {background: #0000ff;}
   90% {background: #8000ff;}
   100% {background: #ff0080;}
-  }
-.wixaof {
-  -webkit-animation:rainbow 5s none;
-  -ms-animation:rainbow 10s none;
-  -o-animation:rainbow 10s none;
-  animation:rainbow 10s none;
+  }}
+.wixaof {{
+  -webkit-animation:rainbow .1s infinite;
+  -ms-animation:rainbow .5s infinite;
+  -o-animation:rainbow .5s infinite;
+  animation:rainbow .5s infinite;
   }
   @-webkit-keyframes rainbow {
-  0% {background: #ff0000;}
-  10% {background: #ff8000;}
-  20% {background: #ffff00;}
-  30% {background: #80ff00;}
-  40% {background: #00ff00;}
-  50% {background: #00ff80;}
-  60% {background: #00ffff;}
-  70% {background: #0080ff;}
-  80% {background: #0000ff;}
-  90% {background: #8000ff;}
-  100% {background: #ff0080;}
+  0% {background: #242222;}
+  10% {background: #242222;}
+  20% {background: #242222;}
+  30% {background: #242222;}
+  40% {background: #242222;}
+  50% {background: #242222;}
+  60% {background: #242222;}
+  70% {background: #242222;}
+  80% {background: #242222;}
+  90% {background: #242222;}
+  100% {background: #242222;}
   }
   @-ms-keyframes rainbow {
-  0% {background: #ff0000;}
-  10% {background: #ff8000;}
-  20% {background: #ffff00;}
-  30% {background: #80ff00;}
-  40% {background: #00ff00;}
-  50% {background: #00ff80;}
-  60% {background: #00ffff;}
-  70% {background: #0080ff;}
-  80% {background: #0000ff;}
-  90% {background: #8000ff;}
-  100% {background: #ff0080;}
+  0% {background: #242222;}
+  10% {background: #242222;}
+  20% {background: #242222;}
+  30% {background: #242222;}
+  40% {background: #242222;}
+  50% {background: #242222;}
+  60% {background: #242222;}
+  70% {background: #242222;}
+  80% {background: #242222;}
+  90% {background: #242222;}
+  100% {background: #242222;}
   }
   @-o-keyframes rainbow {
-  0% {background: #ff0000;}
-  10% {background: #ff8000;}
-  20% {background: #ffff00;}
-  30% {background: #80ff00;}
-  40% {background: #00ff00;}
-  50% {background: #00ff80;}
-  60% {background: #00ffff;}
-  70% {background: #0080ff;}
-  80% {background: #0000ff;}
-  90% {background: #8000ff;}
-  100% {background: #ff0080;}
+  0% {background: #242222;}
+  10% {background: #242222;}
+  20% {background: #242222;}
+  30% {background: #242222;}
+  40% {background: #242222;}
+  50% {background: #242222;}
+  60% {background: #242222;}
+  70% {background: #242222;}
+  80% {background: #242222;}
+  90% {background: #242222;}
+  100% {background: #242222;}
   }
   @keyframes rainbow {
-  0% {background: #ff0000;}
-  10% {background: #ff8000;}
-  20% {background: #ffff00;}
-  30% {background: #80ff00;}
-  40% {background: #00ff00;}
-  50% {background: #00ff80;}
-  60% {background: #00ffff;}
-  70% {background: #0080ff;}
-  80% {background: #0000ff;}
-  90% {background: #8000ff;}
-  100% {background: #ff0080;}
-  }
+  0% {background: #242222;}
+  10% {background: #242222;}
+  20% {background: #242222;}
+  30% {background: #242222;}
+  40% {background: #242222;}
+  50% {background: #242222;}
+  60% {background: #242222;}
+  70% {background: #242222;}
+  80% {background: #242222;}
+  90% {background: #242222;}
+  100% {background: #242222;}
+  }}
