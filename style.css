@@ -1,39 +1,61 @@
-body { 
-  height: 100%;
-  width: 100%;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-background-size: 1800% 1800%;
-
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;}
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
+body {
+  -webkit-animation:rainbow .1s infinite;
+  -ms-animation:rainbow .5s infinite;
+  -o-animation:rainbow .5s infinite;
+  animation:rainbow .5s infinite;
+  }
+  @-webkit-keyframes rainbow {
+  0% {background: #ff0000;}
+  10% {background: #ff8000;}
+  20% {background: #ffff00;}
+  30% {background: #80ff00;}
+  40% {background: #00ff00;}
+  50% {background: #00ff80;}
+  60% {background: #00ffff;}
+  70% {background: #0080ff;}
+  80% {background: #0000ff;}
+  90% {background: #8000ff;}
+  100% {background: #ff0080;}
+  }
+  @-ms-keyframes rainbow {
+  0% {background: #ff0000;}
+  10% {background: #ff8000;}
+  20% {background: #ffff00;}
+  30% {background: #80ff00;}
+  40% {background: #00ff00;}
+  50% {background: #00ff80;}
+  60% {background: #00ffff;}
+  70% {background: #0080ff;}
+  80% {background: #0000ff;}
+  90% {background: #8000ff;}
+  100% {background: #ff0080;}
+  }
+  @-o-keyframes rainbow {
+  0% {background: #ff0000;}
+  10% {background: #ff8000;}
+  20% {background: #ffff00;}
+  30% {background: #80ff00;}
+  40% {background: #00ff00;}
+  50% {background: #00ff80;}
+  60% {background: #00ffff;}
+  70% {background: #0080ff;}
+  80% {background: #0000ff;}
+  90% {background: #8000ff;}
+  100% {background: #ff0080;}
+  }
+  @keyframes rainbow {
+  0% {background: #ff0000;}
+  10% {background: #ff8000;}
+  20% {background: #ffff00;}
+  30% {background: #80ff00;}
+  40% {background: #00ff00;}
+  50% {background: #00ff80;}
+  60% {background: #00ffff;}
+  70% {background: #0080ff;}
+  80% {background: #0000ff;}
+  90% {background: #8000ff;}
+  100% {background: #ff0080;}
+  }
 .catjam {
   size: 300%;
 }
